@@ -1,9 +1,12 @@
 a {
     text-decoration: none;
-}
-
-a:link{
     color: black;
+}
+.item2 a{
+    color: rgba(0,0,0,.54);
+}
+.push a{
+    color: rgba(0,0,0,.54);
 }
 
 ul {
@@ -22,18 +25,63 @@ ul {
     justify-content: center;
     padding-bottom: 20px;
     
+        
+}
+
+.searchicon{
+    position: absolute;
+    top: 325px;
+    left:700px;
+    width: 0.6%;
+    height: auto;
+}
+
+.apps {
+    display: flex   ;
+    width: 5%;
+    height: auto;
+}
+
+.searchbar{
+    min-width: 550px;
+    min-height: 35px;
+    border-radius: 50px;
+    border-style: solid;
 }
 
 .searchbutton {
     display: flex;
     justify-content: center;
+    padding-bottom: 24%;
 }
 
+.bejelentkezes {
+display: flex;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+border: none;
+background-color: rgb(70, 131, 234);
+color: white;
+font-size: 13px;
+}
+
+.keres {
+display: flex;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 10px;
+border: none;
+background-color: #f8f9fa;
+}
 .navbar1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
+    font-size: 13px;
 }
 
 .item{
@@ -44,11 +92,15 @@ ul {
 }
 
 .navbar2 {
-    padding-top: 26.5%;
+    padding-top: 0.5%;
     padding-left: 1%;
     padding-bottom: 0.5%;
-    
-    
+    color: rgba(0,0,0,.54);
+    background-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-top-color: rgb(218, 220, 224);
+    border-top-width: 1px;
+    font-size: 14px;
 }
 
 .navbar3 {
@@ -56,14 +108,20 @@ ul {
     padding-top: 0.5%;
     padding-left: 0.5%;
     padding-right: 0.5%;
-
+    padding-bottom: 0.5%;
+    border-style: solid;
+    border-top-color: rgb(218, 220, 224);
+    background-color: rgb(242, 242, 242);
+    border-top-width: 1px;
+    font-size: 14px;
+    
 }
 
 .item2 {
     display: flex;
     padding-left: 0.5%;
     padding-right: 0.5%;
-
+    
 }
 
 .push {
@@ -71,4 +129,5 @@ ul {
     margin-left: auto;
     padding-left: 0.5%;
     padding-right: 0.5%;
+    
 }
